@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*,
+*:befor,
+*after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus,
+:active {
+  outline: none; }
+
+a:focus,
+a:active {
+  outline: none; }
+
+nav,
+footer,
+header,
+aside {
+  display: block; }
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/*input,button,textarea{font-family:inherit;}*/
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a,
+a:visited {
+  text-decoration: none; }
+
+a:hover {
+  -webkit-text-emphasis: none;
+  text-emphasis: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+/* h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}*/
+.cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end; }
+
+.container {
+  max-width: 1080px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #f1e4e6;
+  min-height: 100%; }
+
+.cart-button {
+  outline: 1px solid #ff6a6a;
+  padding: 14px 38px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f26376; }
+
+.cart-button:hover {
+  background-color: #f26376;
+  color: #fff;
+  outline: none;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s; }
+
+.padding {
+  margin-top: 20px; }
+
+.main {
+  padding-top: 60px; }
+
+.goods-list {
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  display: -ms-grid;
+  display: grid; }
+
+.goods-item {
+  text-align: center; }
+
+.goods-item h3, p {
+  padding-top: 15px; }
+
+.image {
+  height: 100px;
+  background: #f8f8f8; }
+
+.goods-total {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 17px; }
